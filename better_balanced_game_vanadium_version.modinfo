@@ -20,6 +20,7 @@
 			</Properties>
 			<File>civ/Colombia.sql</File>
 			<File>civ/Poland.sql</File>
+			<File>civ/Arabia.sql</File>
 		</UpdateDatabase>
 	</Settings>
 	<Components>
@@ -35,11 +36,13 @@
 			</Properties>
 			<File>civ/Colombia.sql</File>
 			<File>civ/Poland.sql</File>
+			<File>civ/Arabia.sql</File>
 		</UpdateDatabase>
 	</Components>
 	<Files>
 		<File>civ/Colombia.sql</File>
 		<File>civ/Poland.sql</File>
+		<File>civ/Arabia.sql</File>
 		<File>lang/chinese.xml</File>
 	</Files>
 </Mod>

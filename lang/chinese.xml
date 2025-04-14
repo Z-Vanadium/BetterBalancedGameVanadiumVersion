@@ -2,6 +2,13 @@
 <GameData>
 	<LocalizedText>
 		<!-- === CIVILIZATIONS === -->
+		<!-- == ARABIA == -->
+		<!-- = civilization ability = -->
+		<!-- = leader ability (Saladin Sultan) = -->
+		<Replace Tag="LOC_TRAIT_LEADER_SALADIN_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>玩家可以使用 [ICON_Faith] 信仰值购买他们的军营和学院建筑。使徒使一环内的陆地单位获得 +3 [ICON_Strength]战斗力。</Text>
+		</Replace>
+
 		<!-- == COLOMBIA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="zh_Hans_CN">
