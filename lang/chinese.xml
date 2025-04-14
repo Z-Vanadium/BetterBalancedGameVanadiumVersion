@@ -11,5 +11,18 @@
 		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>“封建主义”市政解锁建造者建造大哥伦比亚特色建筑大庄园的能力。[NEWLINE][NEWLINE]+2 [ICON_GOLD] 金币、+1 [ICON_PRODUCTION] 生产力且+0.5 [Icon_Housing] 住房。[NEWLINE][NEWLINE]每和2座种植园相邻时+1 [ICON_Food] 食物（解锁科技“零件规格化”后，每和1座种植园相邻+1 [ICON_Food] 食物）。每和2座大庄园相邻，种植园与大庄园便+1 [ICON_Production] 生产力（完成市政“重商主义”后，每和1座大庄园相邻+1 [ICON_Production] 生产力）。</Text>
 		</Replace>
+
+		<!-- == POLAND == -->
+		<!-- = leader ability = -->
+		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>如果相邻城市在波兰文化炸弹的攻击下失去单元格，则波兰创立的宗教将成为此城的主流宗教。[NEWLINE][NEWLINE]圣地将从相邻区域获得标准信仰值相邻加成。[NEWLINE][NEWLINE] “政治哲学”市政后，[ICON_GreatWork_Relic] 遗物提供的 [ICON_Faith] 信仰值+2、[ICON_Culture] 文化值+2、[ICON_Gold] 金币+4。创始和完成宗教时各获得一个遗物。</Text>
+		</Replace>
+		<!-- = unique unit = -->
+		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>文艺复兴时期波兰特色单位，替代胸甲骑兵。如果输出的伤害点数高于敌方，则会将防守的敌方单位弹至后方的单元格中。如防守单位无法后退，则将受到更高的伤害。[NEWLINE][NEWLINE] “弹道学”科技后+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_BBGV_ABILITY_WINGED_HUSSAR_COMBAT_BALLISTICS_DESC" Language="zh_Hans_CN">
+			<Text>“弹道学”科技后+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
 	</LocalizedText>
 </GameData>

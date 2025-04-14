@@ -8,35 +8,38 @@
 		<CompatibleVersions>2.0</CompatibleVersions>
 	</Properties>
 	<Settings>
-		<UpdateText id="Text">
+		<UpdateText id="text">
 			<Properties>
 				<LoadOrder>99999</LoadOrder>
 			</Properties>
 			<File>lang/chinese.xml</File>
 		</UpdateText>
-		<UpdateDatabase id="Database">
+		<UpdateDatabase id="civ">
 			<Properties>
-				<LoadOrder>99999</LoadOrder>
+				<LoadOrder>99998</LoadOrder>
 			</Properties>
 			<File>civ/Colombia.sql</File>
+			<File>civ/Poland.sql</File>
 		</UpdateDatabase>
 	</Settings>
 	<Components>
-		<UpdateText id="Text">
+		<UpdateText id="text">
 			<Properties>
 				<LoadOrder>99999</LoadOrder>
 			</Properties>
 			<File>lang/chinese.xml</File>
 		</UpdateText>
-		<UpdateDatabase id="Database">
+		<UpdateDatabase id="civ">
 			<Properties>
-				<LoadOrder>99999</LoadOrder>
+				<LoadOrder>99998</LoadOrder>
 			</Properties>
 			<File>civ/Colombia.sql</File>
+			<File>civ/Poland.sql</File>
 		</UpdateDatabase>
 	</Components>
 	<Files>
 		<File>civ/Colombia.sql</File>
+		<File>civ/Poland.sql</File>
 		<File>lang/chinese.xml</File>
 	</Files>
 </Mod>
