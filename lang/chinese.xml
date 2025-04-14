@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
+		<!-- === BASE === -->
+		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>矿山和渔船改良设施+1 [ICON_Production] 生产力。</Text>
+		</Replace>
 		<!-- === CIVILIZATIONS === -->
 		<!-- == ARABIA == -->
 		<!-- = civilization ability = -->

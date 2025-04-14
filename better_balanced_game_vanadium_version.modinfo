@@ -14,6 +14,12 @@
 			</Properties>
 			<File>lang/chinese.xml</File>
 		</UpdateText>
+		<UpdateDatabase id="base">
+			<Properties>
+				<LoadOrder>99997</LoadOrder>
+			</Properties>
+			<File>base/base.sql</File>
+		</UpdateDatabase>
 		<UpdateDatabase id="civ">
 			<Properties>
 				<LoadOrder>99998</LoadOrder>
@@ -31,6 +37,12 @@
 			</Properties>
 			<File>lang/chinese.xml</File>
 		</UpdateText>
+		<UpdateDatabase id="base">
+			<Properties>
+				<LoadOrder>99997</LoadOrder>
+			</Properties>
+			<File>base/base.sql</File>
+		</UpdateDatabase>
 		<UpdateDatabase id="civ">
 			<Properties>
 				<LoadOrder>99998</LoadOrder>
@@ -42,6 +54,7 @@
 		</UpdateDatabase>
 	</Components>
 	<Files>
+			<File>base/base.sql</File>
 			<File>civ/Colombia.sql</File>
 			<File>civ/Poland.sql</File>
 			<File>civ/Arabia.sql</File>
