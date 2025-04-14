@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<!-- === CIVILIZATIONS === -->
+		<!-- == COLOMBIA == -->
+		<!-- = civilization ability = -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>获得“政治哲学”市政后，所有军事单位+1 [ICON_Movement] 移动力。[ICON_PROMOTION] 升级骑兵、间谍、空军单位时不会结束其回合。[NEWLINE][NEWLINE]种植园 +1 [ICON_Production] 生产力 +1 [ICON_GOLD] 金币。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T3种植园资源。</Text>
+		</Replace>
+		<!-- = unique improvement = -->
+		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>“封建主义”市政解锁建造者建造大哥伦比亚特色建筑大庄园的能力。[NEWLINE][NEWLINE]+2 [ICON_GOLD] 金币、+1 [ICON_PRODUCTION] 生产力且+0.5 [Icon_Housing] 住房。[NEWLINE][NEWLINE]每和2座种植园相邻时+1 [ICON_Food] 食物（解锁科技“零件规格化”后，每和1座种植园相邻+1 [ICON_Food] 食物）。每和2座大庄园相邻，种植园与大庄园便+1 [ICON_Production] 生产力（完成市政“重商主义”后，每和1座大庄园相邻+1 [ICON_Production] 生产力）。</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

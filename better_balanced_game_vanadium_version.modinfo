@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Mod id="aa65411c-e2ac-11ef-a7de-743af48c76bf" version="1">
+	<Properties>
+		<Name>Better Balanced Game Vanadium Version</Name>
+		<Teaser>对 BBG 中某些领袖技能的优化，解决痛点，更好的平衡强度</Teaser>
+		<Description>对 BBG 中某些领袖技能的优化，解决痛点，更好的平衡强度</Description>
+		<Authors>Vanadium</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<Settings>
+		<UpdateText id="Text">
+			<Properties>
+				<LoadOrder>99999</LoadOrder>
+			</Properties>
+			<File>lang/chinese.xml</File>
+		</UpdateText>
+		<UpdateDatabase id="Database">
+			<Properties>
+				<LoadOrder>99999</LoadOrder>
+			</Properties>
+			<File>civ/Colombia.sql</File>
+		</UpdateDatabase>
+	</Settings>
+	<Components>
+		<UpdateText id="Text">
+			<Properties>
+				<LoadOrder>99999</LoadOrder>
+			</Properties>
+			<File>lang/chinese.xml</File>
+		</UpdateText>
+		<UpdateDatabase id="Database">
+			<Properties>
+				<LoadOrder>99999</LoadOrder>
+			</Properties>
+			<File>civ/Colombia.sql</File>
+		</UpdateDatabase>
+	</Components>
+	<Files>
+		<File>civ/Colombia.sql</File>
+		<File>lang/chinese.xml</File>
+	</Files>
+</Mod>
