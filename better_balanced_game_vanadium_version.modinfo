@@ -21,6 +21,7 @@
 			<File>civ/Colombia.sql</File>
 			<File>civ/Poland.sql</File>
 			<File>civ/Arabia.sql</File>
+			<!-- <File>civ/Russia.sql</File> -->
 		</UpdateDatabase>
 	</Settings>
 	<Components>
@@ -37,12 +38,14 @@
 			<File>civ/Colombia.sql</File>
 			<File>civ/Poland.sql</File>
 			<File>civ/Arabia.sql</File>
+			<!-- <File>civ/Russia.sql</File> -->
 		</UpdateDatabase>
 	</Components>
 	<Files>
-		<File>civ/Colombia.sql</File>
-		<File>civ/Poland.sql</File>
-		<File>civ/Arabia.sql</File>
-		<File>lang/chinese.xml</File>
+			<File>civ/Colombia.sql</File>
+			<File>civ/Poland.sql</File>
+			<File>civ/Arabia.sql</File>
+			<!-- <File>civ/Russia.sql</File> -->
+			<File>lang/chinese.xml</File>
 	</Files>
 </Mod>
