@@ -16,7 +16,7 @@
 		<!-- == COLOMBIA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>获得“政治哲学”市政后，所有军事单位+1 [ICON_Movement] 移动力。[ICON_PROMOTION] 升级骑兵、间谍、空军单位时不会结束其回合。[NEWLINE][NEWLINE]种植园 +1 [ICON_Production] 生产力 +1 [ICON_GOLD] 金币。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T3种植园资源。</Text>
+			<Text>获得“政治哲学”市政后，所有军事单位+1 [ICON_Movement] 移动力。[ICON_PROMOTION] 升级骑兵、间谍、空军单位时不会结束其回合。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T3种植园资源。</Text>
 		</Replace>
 		<!-- = unique improvement = -->
 		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="zh_Hans_CN">
