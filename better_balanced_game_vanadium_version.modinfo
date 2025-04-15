@@ -29,6 +29,7 @@
 			<File>civ/Arabia.sql</File>
 			<File>civ/Russia.sql</File>
 			<File>civ/Zulu.sql</File>
+			<File>civ/Korea.sql</File>
 		</UpdateDatabase>
 	</Settings>
 	<Components>
@@ -53,6 +54,7 @@
 			<File>civ/Arabia.sql</File>
 			<File>civ/Russia.sql</File>
 			<File>civ/Zulu.sql</File>
+			<File>civ/Korea.sql</File>
 		</UpdateDatabase>
 	</Components>
 	<Files>
@@ -63,5 +65,6 @@
 			<File>civ/Russia.sql</File>
 			<File>lang/chinese.xml</File>
 			<File>civ/Zulu.sql</File>
+			<File>civ/Korea.sql</File>
 	</Files>
 </Mod>

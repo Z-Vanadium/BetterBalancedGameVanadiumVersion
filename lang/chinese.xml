@@ -23,6 +23,16 @@
 			<Text>“封建主义”市政解锁建造者建造大哥伦比亚特色建筑大庄园的能力。[NEWLINE][NEWLINE]+2 [ICON_GOLD] 金币、+1 [ICON_PRODUCTION] 生产力且+0.5 [Icon_Housing] 住房。[NEWLINE][NEWLINE]每和2座种植园相邻时+1 [ICON_Food] 食物（解锁科技“零件规格化”后，每和1座种植园相邻+1 [ICON_Food] 食物）。每和2座大庄园相邻，种植园与大庄园便+1 [ICON_Production] 生产力（完成市政“重商主义”后，每和1座大庄园相邻+1 [ICON_Production] 生产力）。</Text>
 		</Replace>
 
+		<!-- == KOREA == -->
+		<!-- = leader ability (Seondeok) = -->
+		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有总督的城市+1 [ICON_Amenities] 宜居度，首次升级提供+25%书院建筑产出，接下来每次升级都将提供+150%书院建筑产出。[NEWLINE][NEWLINE]“封建主义”市政后，奖励1个 [Icon_Governor] 总督头衔，但由您建立且无 [ICON_Governor] 总督就职的城市-10%所有产出。</Text>
+		</Replace>
+		<!-- = unique district = -->
+		<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>朝鲜特色区域，替代学院。必须建在丘陵上。每与2个矿山相邻+1 [ICON_SCIENCE] 科技值。每与1个地热裂缝相邻，则+2 [ICON_Science] 科技值。其中的专家额外+1 [ICON_FOOD] 食物。建成时向相邻单元格施放文化炸弹。</Text>
+		</Replace>
+
 		<!-- == POLAND == -->
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_DESCRIPTION" Language="zh_Hans_CN">
