@@ -2,12 +2,21 @@
 <GameData>
 	<LocalizedText>
 		<!-- === BASE === -->
+		<!-- == BELIEF == -->
+		<!-- = rain god = -->
+		<Replace Tag="LOC_BELIEF_BBGV_RAIN_GOD_NAME" Language="zh_Hans_CN">
+			<Text>雨神</Text>
+		</Replace>
+		<Replace Tag="LOC_BELIEF_BBGV_RAIN_GOD_DESCRRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市 +1 [ICON_Housing] 住房，没有淡水的城市额外 +1 [ICON_Housing] 住房</Text>
+		</Replace>
+
+		<!-- == IMPROVEMENT == -->
 		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>矿山和渔船改良设施+1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<!-- === CIVILIZATIONS === -->
 		<!-- == ARABIA == -->
-		<!-- = civilization ability = -->
 		<!-- = leader ability (Saladin Sultan) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_SALADIN_ALT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>玩家可以使用 [ICON_Faith] 信仰值购买他们的军营和学院建筑。使徒使一环内的陆地单位获得 +3 [ICON_Strength]战斗力。</Text>

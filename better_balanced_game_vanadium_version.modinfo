@@ -31,6 +31,12 @@
 			<File>civ/Zulu.sql</File>
 			<File>civ/Korea.sql</File>
 		</UpdateDatabase>
+		<UpdateIcons id="UpdateIcons">
+			<Properties>
+				<LoadOrder>2000</LoadOrder>
+			</Properties>
+			<File>icons.xml</File>
+		</UpdateIcons>
 	</Settings>
 	<Components>
 		<UpdateText id="text">
@@ -56,6 +62,12 @@
 			<File>civ/Zulu.sql</File>
 			<File>civ/Korea.sql</File>
 		</UpdateDatabase>
+		<UpdateIcons id="UpdateIcons">
+			<Properties>
+				<LoadOrder>2000</LoadOrder>
+			</Properties>
+			<File>icons.xml</File>
+		</UpdateIcons>
 	</Components>
 	<Files>
 			<File>base/base.sql</File>
@@ -66,5 +78,6 @@
 			<File>lang/chinese.xml</File>
 			<File>civ/Zulu.sql</File>
 			<File>civ/Korea.sql</File>
+			<File>icons.xml</File>
 	</Files>
 </Mod>

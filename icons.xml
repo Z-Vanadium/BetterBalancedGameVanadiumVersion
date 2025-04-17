@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_BELIEF_BBGV_RAIN_GOD" Atlas="ICON_ATLAS_BELIEFS_PATHEON" Index="9"/>
+	</IconDefinitions>
+</GameData>
