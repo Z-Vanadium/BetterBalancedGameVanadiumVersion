@@ -32,6 +32,8 @@
 			<File>civ/Korea.sql</File>
 			<File>civ/India.sql</File>
 			<File>civ/Indonesia.sql</File>
+			<File>civ/America.sql</File>
+			<File>civ/Greece.sql</File>
 		</UpdateDatabase>
 		<UpdateIcons id="UpdateIcons">
 			<Properties>
@@ -65,6 +67,8 @@
 			<File>civ/Korea.sql</File>
 			<File>civ/India.sql</File>
 			<File>civ/Indonesia.sql</File>
+			<File>civ/America.sql</File>
+			<File>civ/Greece.sql</File>
 		</UpdateDatabase>
 		<UpdateIcons id="UpdateIcons">
 			<Properties>
@@ -85,5 +89,7 @@
 			<File>icons.xml</File>
 			<File>civ/India.sql</File>
 			<File>civ/Indonesia.sql</File>
+			<File>civ/America.sql</File>
+			<File>civ/Greece.sql</File>
 	</Files>
 </Mod>

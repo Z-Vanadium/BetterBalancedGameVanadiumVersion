@@ -16,13 +16,23 @@
 			<Text>矿山和渔船改良设施+1 [ICON_Production] 生产力。</Text>
 		</Replace>
 		<!-- === CIVILIZATIONS === -->
+		<!-- == AMERICA == -->
+		<!-- civilization ability -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_FOUNDING_FATHERS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>当前 [ICON_Government] 政体的所有外交政策槽位均转为通配符槽位。其 [ICON_Government] 政体中每个通配符槽位每回合提供+1 [ICON_FAVOR] 外交支持。如与城邦之间存在 [ICON_TradeRoute] 贸易路线，派往此处的1位 [ICON_Envoy] 使者将视为2位。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T4草原山脉与平原山脉、-T2泛滥平原、-T4雨林。</Text>
+		</Replace>
+		<!-- = leader ability (Rough Rider)= -->
+		<Replace Tag="LOC_TRAIT_LEADER_ROOSEVELT_COROLLARY_ROUGH_RIDER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每通过科技或市政进入一个新时代，单位+1 [ICON_Strength] 战斗力（从古典时期开始，上限至现代+5）。研究完“弹道学”科技解锁莽骑兵。</Text>
+		</Replace>
+
 		<!-- == ARABIA == -->
 		<!-- = leader ability (Saladin Sultan) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_SALADIN_ALT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>玩家可以使用 [ICON_Faith] 信仰值购买他们的军营和学院建筑。使徒使一环内的陆地单位获得 +3 [ICON_Strength]战斗力。</Text>
 		</Replace>
 
-		<!-- == COLOMBIA == -->
+		<!-- == GRAN COLOMBIA == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_EJERCITO_PATRIOTA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>获得“政治哲学”市政后，所有军事单位+1 [ICON_Movement] 移动力。[ICON_PROMOTION] 升级骑兵、间谍、空军单位时不会结束其回合。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T3种植园资源。</Text>
@@ -30,6 +40,24 @@
 		<!-- = unique improvement = -->
 		<Replace Tag="LOC_IMPROVEMENT_HACIENDA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>“封建主义”市政解锁建造者建造大哥伦比亚特色建筑大庄园的能力。[NEWLINE][NEWLINE]+2 [ICON_GOLD] 金币、+1 [ICON_PRODUCTION] 生产力且+0.5 [Icon_Housing] 住房。[NEWLINE][NEWLINE]每和2座种植园相邻时+1 [ICON_Food] 食物（解锁科技“零件规格化”后，每和1座种植园相邻+1 [ICON_Food] 食物）。每和2座大庄园相邻，种植园与大庄园便+1 [ICON_Production] 生产力（完成市政“重商主义”后，每和1座大庄园相邻+1 [ICON_Production] 生产力）。</Text>
+		</Replace>
+
+		<!-- == GREECE == -->
+		<!-- = unique district = -->
+		<Replace Tag="LOC_DISTRICT_ACROPOLIS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>希腊特色文化遗址区域，替代剧院广场，建造费用更低。[NEWLINE][NEWLINE]基础 +2 [ICON_Culture] 文化值，每个相邻区域+1 [ICON_Culture] 文化值，相邻奇观、娱乐中心及水上乐园额外+2 [ICON_Culture] 文化值。[NEWLINE][NEWLINE] 额外 +1 [ICON_GreatWriter] 大作家点数。[NEWLINE][NEWLINE]只能建在丘陵上。</Text>
+		</Replace>	
+		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>希腊特色文化遗址区域，替代剧院广场，建造费用更低。[NEWLINE][NEWLINE]基础 +2 [ICON_Culture] 文化值，每个相邻区域+1 [ICON_Culture] 文化值，相邻奇观、娱乐中心及水上乐园额外+2 [ICON_Culture] 文化值。[NEWLINE][NEWLINE] 额外 +1 [ICON_GreatWriter] 大作家点数。[NEWLINE][NEWLINE]只能建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ACROPOLIS_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>希腊特色文化遗址区域，替代剧院广场，建造费用更低。[NEWLINE][NEWLINE]基础 +2 [ICON_Culture] 文化值，每个相邻区域+1 [ICON_Culture] 文化值，相邻奇观、娱乐中心及水上乐园额外+2 [ICON_Culture] 文化值。[NEWLINE][NEWLINE] 额外 +1 [ICON_GreatWriter] 大作家点数。[NEWLINE][NEWLINE]只能建在丘陵上。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_ACROPOLIS_DESCRIPTION_ADJACENCY" Language="zh_Hans_CN">
+			<Text>相邻加成:+2 [ICON_Culture] 文化值，来自每个相邻的区域单元格。+2 [ICON_Culture] 文化值，来自每个相邻的奇观、娱乐中心、水上乐园、棉花堡及帕依提提单元格。</Text>
+		</Replace>
+		<Replace Tag="LOC_BBGV_ACROPOLOS_BASE_CULTURE" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_CULTURE] 文化值相邻加成。</Text>
 		</Replace>
 
 		<!-- == INDIA == -->
@@ -53,7 +81,7 @@
 		<!-- == KOREA == -->
 		<!-- = leader ability (Seondeok) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有总督的城市+1 [ICON_Amenities] 宜居度，首次升级提供+25%书院建筑产出，接下来每次升级都将提供+150%书院建筑产出。[NEWLINE][NEWLINE]“封建主义”市政后，奖励1个 [Icon_Governor] 总督头衔，但由您建立且无 [ICON_Governor] 总督就职的城市-10%所有产出。</Text>
+			<Text>拥有总督的城市+1 [ICON_Amenities] 宜居度，首次升级提供+25%书院建筑产出，接下来每次升级都将提供+15%书院建筑产出。[NEWLINE][NEWLINE]“封建主义”市政后，奖励1个 [Icon_Governor] 总督头衔，但由您建立且无 [ICON_Governor] 总督就职的城市-10%所有产出。</Text>
 		</Replace>
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_SEOWON_DESCRIPTION" Language="zh_Hans_CN">
