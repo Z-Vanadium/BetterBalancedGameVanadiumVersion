@@ -32,6 +32,24 @@
 			<Text>“封建主义”市政解锁建造者建造大哥伦比亚特色建筑大庄园的能力。[NEWLINE][NEWLINE]+2 [ICON_GOLD] 金币、+1 [ICON_PRODUCTION] 生产力且+0.5 [Icon_Housing] 住房。[NEWLINE][NEWLINE]每和2座种植园相邻时+1 [ICON_Food] 食物（解锁科技“零件规格化”后，每和1座种植园相邻+1 [ICON_Food] 食物）。每和2座大庄园相邻，种植园与大庄园便+1 [ICON_Production] 生产力（完成市政“重商主义”后，每和1座大庄园相邻+1 [ICON_Production] 生产力）。</Text>
 		</Replace>
 
+		<!-- == INDIA == -->
+		<!-- = unique unit = -->
+		<Replace Tag="LOC_ABILITY_VARU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>相邻敌人单位-3 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_INDIAN_VARU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>古典时代的印度特色单位。拥有3点视野。与其相邻的敌方单位 [ICON_STRENGTH] 战斗力-3。“弹道学”科技后过期。</Text>
+		</Replace>
+
+		<!-- == INDONESIA == -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_INDONESIA_NUSANTARA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>海岸和湖泊单元格可为圣地、学院、工业区和剧院广场提供少量相邻加成。如与海岸或湖泊单元格相邻，娱乐设施+1 [ICON_AMENITIES] 宜居度。相邻海岸和湖泊的区域 +1 [ICON_Faith] 信仰值。可以使用 [ICON_FAITH] 信仰购买港口建筑。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T1海岸。</Text>
+		</Replace>
+		<!-- = leader ability (Gitarja) = -->
+		<Replace Tag="LOC_TRAIT_LEADER_EXALTED_GODDESS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以使用 [ICON_FAITH] 信仰购买海军单位。宗教单位上船下船时无移动力消耗。</Text>
+		</Replace>
+
 		<!-- == KOREA == -->
 		<!-- = leader ability (Seondeok) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_HWARANG_DESCRIPTION" Language="zh_Hans_CN">

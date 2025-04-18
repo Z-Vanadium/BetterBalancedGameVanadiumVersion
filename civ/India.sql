@@ -1,0 +1,2 @@
+-- India varu -5 to -3
+-- UPDATE ModifierArguments SET Value = -3 WHERE ModifierId = 'VARU_NEGATIVE_COMBAT_MODIFIER' AND Name = 'Amount';
