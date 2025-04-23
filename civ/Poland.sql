@@ -4,8 +4,10 @@ UPDATE Modifiers Set OwnerRequirementSetId='BBG_UTILS_PLAYER_HAS_CIVIC_POLITICAL
 UPDATE Modifiers Set OwnerRequirementSetId='BBG_UTILS_PLAYER_HAS_CIVIC_POLITICAL_PHILOSOPHY_REQSET' WHERE ModifierId = 'TRAIT_LITHUANIANUNION_CULTURE_RELIC';
 UPDATE Modifiers Set OwnerRequirementSetId='BBG_UTILS_PLAYER_HAS_CIVIC_POLITICAL_PHILOSOPHY_REQSET' WHERE ModifierId = 'TRAIT_LITHUANIANUNION_GOLD_RELIC';
 
+-- winged hussar cost to 280
 -- winged hussar combat to 59
 UPDATE Units SET Combat=59 WHERE UnitType='UNIT_POLISH_HUSSAR';
+UPDATE Units SET Cost= 280 WHERE UnitType='UNIT_POLISH_HUSSAR';
 
 -- get +5 when tech ballistics
 INSERT INTO Tags (Tag, Vocabulary) VALUES
