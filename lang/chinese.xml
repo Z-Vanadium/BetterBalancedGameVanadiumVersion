@@ -113,10 +113,10 @@
 		<!-- == SPAIN == -->
 		<!-- = civilization ability = -->
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可以更早组建 [ICON_Corps] 舰队和 [ICON_Army] 无敌舰队（需要“雇佣兵”和“民族主义”市政）。[ICON_Corps] 舰队和 [ICON_Army] 无敌舰队的建造成本降低25%。[NEWLINE][NEWLINE][ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币、+2 [ICON_Faith] 信仰值、+1 [ICON_Production] 生产力。通往不同大陆的国际 [ICON_TradeRoute] 贸易路线获得双倍上述加成。[ICON_Capital] 首都8个单元格范围外的城市建造 [ICON_DISTRICT] 区域时+25% [ICON_Production] 生产力。[NEWLINE][NEWLINE]修建港口时 +50% [ICON_Production] 生产力，修建港口内建筑时 +30% [ICON_Production] 生产力[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T1海岸、T3地热裂缝。特殊：靠近大陆分界。</Text>
+			<Text>可以更早组建 [ICON_Corps] 舰队和 [ICON_Army] 无敌舰队（需要“雇佣兵”和“民族主义”市政）。[ICON_Corps] 舰队和 [ICON_Army] 无敌舰队的建造成本降低25%。[NEWLINE][NEWLINE][ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币、+2 [ICON_Faith] 信仰值、+1 [ICON_Production] 生产力。通往不同大陆的国际 [ICON_TradeRoute] 贸易路线获得双倍上述加成。异大陆城市建造 [ICON_DISTRICT] 区域时+25% [ICON_Production] 生产力。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T1海岸、T3地热裂缝。特殊：靠近大陆分界。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_TREASURE_FLEET_EXPANSION2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可以更早组建 [ICON_Corps] 舰队和 [ICON_Army] 无敌舰队（需要“雇佣兵”和“民族主义”市政）。[ICON_Corps] 舰队和 [ICON_Army] 无敌舰队的建造成本降低25%。[NEWLINE][NEWLINE][ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币、+2 [ICON_Faith] 信仰值、+1 [ICON_Production] 生产力。通往不同大陆的国际 [ICON_TradeRoute] 贸易路线获得双倍上述加成。[ICON_Capital] 首都8个单元格范围外的城市建造 [ICON_DISTRICT] 区域时+25% [ICON_Production] 生产力。[NEWLINE][NEWLINE]修建港口时 +50% [ICON_Production] 生产力，修建港口内建筑时 +30% [ICON_Production] 生产力[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T1海岸、T3地热裂缝。特殊：靠近大陆分界。</Text>
+			<Text>可以更早组建 [ICON_Corps] 舰队和 [ICON_Army] 无敌舰队（需要“雇佣兵”和“民族主义”市政）。[ICON_Corps] 舰队和 [ICON_Army] 无敌舰队的建造成本降低25%。[NEWLINE][NEWLINE][ICON_TradeRoute] 贸易路线+3 [ICON_Gold] 金币、+2 [ICON_Faith] 信仰值、+1 [ICON_Production] 生产力。通往不同大陆的国际 [ICON_TradeRoute] 贸易路线获得双倍上述加成。异大陆城市建造 [ICON_DISTRICT] 区域时+25% [ICON_Production] 生产力。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T1海岸、T3地热裂缝。特殊：靠近大陆分界。</Text>
 		</Replace>
 
 		<!-- == ZULU == -->

@@ -1,10 +1,14 @@
--- building harbor +50% production
-INSERT INTO Modifiers(ModifierId, ModifierType) VALUES ('BBGV_SPAIN_HARBOR_PRODUCTION', 'MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION');
-INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES ('BBGV_SPAIN_HARBOR_PRODUCTION', 'DistrictType', 'DISTRICT_HARBOR');
-INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES ('BBGV_SPAIN_HARBOR_PRODUCTION', 'Amount', 50);
+-- -- building harbor +50% production
+-- INSERT INTO Modifiers(ModifierId, ModifierType) VALUES ('BBGV_SPAIN_HARBOR_PRODUCTION', 'MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION');
+-- INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES ('BBGV_SPAIN_HARBOR_PRODUCTION', 'DistrictType', 'DISTRICT_HARBOR');
+-- INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES ('BBGV_SPAIN_HARBOR_PRODUCTION', 'Amount', 50);
 
--- building harbor buildings +30% production
-INSERT INTO Modifiers(ModifierId, ModifierType) VALUES ('BBGV_SPAIN_HARBOR_BUIDINGS_PRODUCTION', 'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION');
-INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES ('BBGV_SPAIN_HARBOR_BUIDINGS_PRODUCTION', 'DistrictType', 'DISTRICT_HARBOR');
-INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES ('BBGV_SPAIN_HARBOR_BUIDINGS_PRODUCTION', 'Amount', 30);
+-- -- building harbor buildings +30% production
+-- INSERT INTO Modifiers(ModifierId, ModifierType) VALUES ('BBGV_SPAIN_HARBOR_BUIDINGS_PRODUCTION', 'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION');
+-- INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES ('BBGV_SPAIN_HARBOR_BUIDINGS_PRODUCTION', 'DistrictType', 'DISTRICT_HARBOR');
+-- INSERT INTO ModifierArguments(ModifierId, Name, Value) VALUES ('BBGV_SPAIN_HARBOR_BUIDINGS_PRODUCTION', 'Amount', 30);
+
+-- district production boosted if intercontinent split
+INSERT INTO TraitModifiers VALUES ('TRAIT_CIVILIZATION_TREASURE_FLEET', 'TRAIT_INTERCONTINENTAL_DISTRICT_PRODUCTION');
+DELETE FROM TraitModifiers WHERE TraitType='TRAIT_CIVILIZATION_TREASURE_FLEET' AND ModifierId='BBG_TRAIT_DISTANCE_DISTRICT_PRODUCTION';
 
