@@ -24,7 +24,7 @@
 			<Properties>
 				<LoadOrder>99998</LoadOrder>
 			</Properties>
-			<File>civ/Colombia.sql</File>
+			<File>civ/GranColombia.sql</File>
 			<File>civ/Poland.sql</File>
 			<File>civ/Arabia.sql</File>
 			<File>civ/Russia.sql</File>
@@ -66,7 +66,7 @@
 			<Properties>
 				<LoadOrder>99998</LoadOrder>
 			</Properties>
-			<File>civ/Colombia.sql</File>
+			<File>civ/GranColombia.sql</File>
 			<File>civ/Poland.sql</File>
 			<File>civ/Arabia.sql</File>
 			<File>civ/Russia.sql</File>
@@ -93,7 +93,7 @@
 	</Components>
 	<Files>
 			<File>base/base.sql</File>
-			<File>civ/Colombia.sql</File>
+			<File>civ/GranColombia.sql</File>
 			<File>civ/Poland.sql</File>
 			<File>civ/Arabia.sql</File>
 			<File>civ/Russia.sql</File>
