@@ -1,4 +1,4 @@
--- get 2 faith for city center
+-- get 1 faith for city center
 INSERT INTO TraitModifiers(TraitType , ModifierId) VALUES
     ('TRAIT_CIVILIZATION_MOTHER_RUSSIA', 'BBGV_CITY_CENTER_EXTRA_FAITH');
 INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
