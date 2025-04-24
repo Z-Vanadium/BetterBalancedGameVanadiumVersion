@@ -34,6 +34,7 @@
 			<File>civ/Indonesia.sql</File>
 			<File>civ/America.sql</File>
 			<File>civ/Greece.sql</File>
+			<File>civ/Spain.sql</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="district">
 			<Properties>
@@ -75,6 +76,7 @@
 			<File>civ/Indonesia.sql</File>
 			<File>civ/America.sql</File>
 			<File>civ/Greece.sql</File>
+			<File>civ/Spain.sql</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="district">
 			<Properties>
@@ -104,5 +106,6 @@
 			<File>civ/America.sql</File>
 			<File>civ/Greece.sql</File>
 			<File>district/district.sql</File>
+			<File>civ/Spain.sql</File>
 	</Files>
 </Mod>
