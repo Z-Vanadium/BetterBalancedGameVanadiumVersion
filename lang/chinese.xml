@@ -88,6 +88,12 @@
 			<Text>朝鲜特色区域，替代学院。必须建在丘陵上。每与2个矿山相邻+1 [ICON_SCIENCE] 科技值。每与1个地热裂缝相邻，则+2 [ICON_Science] 科技值。其中的专家额外+1 [ICON_FOOD] 食物。建成时向相邻单元格施放文化炸弹。</Text>
 		</Replace>
 
+		<!-- == MAYA == -->
+		<!-- = unique district = -->
+		<Replace Tag="LOC_DISTRICT_OBSERVATORY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>玛雅特色科学研究区域。替代“学院”区域，且建造花费更低。[NEWLINE][NEWLINE]+1 [ICON_HOUSING] 住房，与种植园相邻则+1 [ICON_Science] 科技值。每与2个农场或区域单元格相邻，则+1 [ICON_Science] 科技值。每与1个地热裂缝相邻，则+2 [ICON_Science] 科技值。[NEWLINE][NEWLINE]建成后对相邻无主单元格施放文化炸弹。</Text>
+		</Replace>
+
 		<!-- == POLAND == -->
 		<!-- = leader ability = -->
 		<Replace Tag="LOC_TRAIT_LEADER_LITHUANIAN_UNION_DESCRIPTION" Language="zh_Hans_CN">
