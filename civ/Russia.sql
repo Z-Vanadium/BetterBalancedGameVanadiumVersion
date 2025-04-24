@@ -5,7 +5,7 @@ INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId) VALUES
     ('BBGV_CITY_CENTER_EXTRA_FAITH', 'MODIFIER_PLAYER_ADJUST_PLOT_YIELD', 'BBGV_CITY_CENTER_REQSET');
 INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES
     ('BBGV_CITY_CENTER_EXTRA_FAITH', 'YieldType', 'YIELD_FAITH'),
-    ('BBGV_CITY_CENTER_EXTRA_FAITH', 'Amount', 2);
+    ('BBGV_CITY_CENTER_EXTRA_FAITH', 'Amount', 1);
 
 -- req
 INSERT INTO RequirementSets (RequirementSetId, RequirementSetType) VALUES
