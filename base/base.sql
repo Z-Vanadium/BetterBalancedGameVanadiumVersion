@@ -3,6 +3,7 @@ DELETE FROM Resource_YieldChanges WHERE ResourceType = 'RESOURCE_CRABS';
 INSERT INTO Resource_YieldChanges VALUES ('RESOURCE_CRABS', 'YIELD_GOLD', 1);
 INSERT INTO Resource_YieldChanges VALUES ('RESOURCE_CRABS', 'YIELD_PRODUCTION', 1);
 INSERT INTO Resource_ValidFeatures VALUES ('RESOURCE_CRABS', 'FEATURE_REEF');
+UPDATE Improvement_ValidResources SET MustRemoveFeature = 0 WHERE ImprovementType = 'IMPROVEMENT_FISHING_BOATS' AND ResourceType = 'RESOURCE_CRABS';
 
 -- fish boat bonus
 INSERT INTO Improvement_BonusYieldChanges VALUES
