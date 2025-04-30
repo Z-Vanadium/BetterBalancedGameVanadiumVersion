@@ -36,6 +36,7 @@
 			<File>civ/Greece.sql</File>
 			<File>civ/Spain.sql</File>
 			<File>civ/Maya.sql</File>
+			<File>civ/China.sql</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="district">
 			<Properties>
@@ -79,6 +80,7 @@
 			<File>civ/Greece.sql</File>
 			<File>civ/Spain.sql</File>
 			<File>civ/Maya.sql</File>
+			<File>civ/China.sql</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="district">
 			<Properties>
@@ -110,5 +112,6 @@
 			<File>district/district.sql</File>
 			<File>civ/Spain.sql</File>
 			<File>civ/Maya.sql</File>
+			<File>civ/China.sql</File>
 	</Files>
 </Mod>
