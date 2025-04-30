@@ -132,7 +132,7 @@
 		</Replace>
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_IKANDA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>祖鲁特色区域，替代军营。+1 [ICON_Housing] 住房。满足市政或科技先决条件后即可创建军团和军队。伊坎达中的建筑+2 [ICON_GOLD] 金币和+1 [ICON_CULTURE] 文化值；根据建筑等级：兵营和马厩 +1 [ICON_Production] 生产力，兵工厂 +2 [ICON_Production] 生产力，军事学院 +4 [ICON_Production] 生产力。解锁相应的市政后即可直接生产 [ICON_Corps] 军团和 [ICON_Army] 军队。</Text>
+			<Text>祖鲁特色区域，替代军营。+1 [ICON_Housing] 住房。满足市政或科技先决条件后即可创建军团和军队。伊坎达中的建筑+2 [ICON_GOLD] 金币和+1 [ICON_CULTURE] 文化值；根据建筑等级：兵营和马厩 +2 [ICON_Production] 生产力，兵工厂 +3 [ICON_Production] 生产力，军事学院 +6 [ICON_Production] 生产力。解锁相应的市政后即可直接生产 [ICON_Corps] 军团和 [ICON_Army] 军队，并使 [ICON_Corps] 军团和 [ICON_Army] 军队的价格降低 5%。</Text>
 		</Replace>
 
 		<!-- === DISTRICTS === -->

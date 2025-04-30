@@ -1,5 +1,5 @@
 -- no more ikanda corps discount
-UPDATE ModifierArguments SET Value = 0 WHERE ModifierId = 'IKANDA_TRAINED_CORPS_ARMY_DISCOUNT' AND Name = 'Amount';
+UPDATE ModifierArguments SET Value = 5 WHERE ModifierId = 'IKANDA_TRAINED_CORPS_ARMY_DISCOUNT' AND Name = 'Amount';
 
 -- later army
 UPDATE ModifierArguments SET Value = 'CIVIC_URBANIZATION' WHERE ModifierId = 'TRAIT_LAND_ARMIES_EARLY' AND Name = 'CivicType';
@@ -13,7 +13,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
     VALUES ('BBGV_TRAIT_IKANDA_BARRACKS_PRODUCTION', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_PRODUCTION');
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
-    VALUES ('BBGV_TRAIT_IKANDA_BARRACKS_PRODUCTION', 'Amount', 'ARGTYPE_IDENTITY', 1);  -- 2 + 1
+    VALUES ('BBGV_TRAIT_IKANDA_BARRACKS_PRODUCTION', 'Amount', 'ARGTYPE_IDENTITY', 2);  -- 2 + 1
 
 INSERT INTO TraitModifiers VALUES ('TRAIT_CIVILIZATION_DISTRICT_IKANDA', 'BBGV_TRAIT_IKANDA_STABLE_PRODUCTION');
 INSERT INTO Modifiers (ModifierId, ModifierType)
@@ -23,7 +23,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
     VALUES ('BBGV_TRAIT_IKANDA_STABLE_PRODUCTION', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_PRODUCTION');
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
-    VALUES ('BBGV_TRAIT_IKANDA_STABLE_PRODUCTION', 'Amount', 'ARGTYPE_IDENTITY', 1);  -- 2 + 1
+    VALUES ('BBGV_TRAIT_IKANDA_STABLE_PRODUCTION', 'Amount', 'ARGTYPE_IDENTITY', 2);  -- 2 + 1
 
 INSERT INTO TraitModifiers VALUES ('TRAIT_CIVILIZATION_DISTRICT_IKANDA', 'BBGV_TRAIT_IKANDA_ARMORY_PRODUCTION');
 INSERT INTO Modifiers (ModifierId, ModifierType)
@@ -33,7 +33,7 @@ INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
     VALUES ('BBGV_TRAIT_IKANDA_ARMORY_PRODUCTION', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_PRODUCTION');
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
-    VALUES ('BBGV_TRAIT_IKANDA_ARMORY_PRODUCTION', 'Amount', 'ARGTYPE_IDENTITY', 2);  -- 3 + 2
+    VALUES ('BBGV_TRAIT_IKANDA_ARMORY_PRODUCTION', 'Amount', 'ARGTYPE_IDENTITY', 3);  -- 3 + 2
 
 INSERT INTO TraitModifiers VALUES ('TRAIT_CIVILIZATION_DISTRICT_IKANDA', 'BBGV_TRAIT_IKANDA_MILITARY_PRODUCTION');
 INSERT INTO Modifiers (ModifierId, ModifierType)
@@ -43,4 +43,4 @@ INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
     VALUES ('BBGV_TRAIT_IKANDA_MILITARY_PRODUCTION', 'YieldType', 'ARGTYPE_IDENTITY', 'YIELD_PRODUCTION');
 INSERT INTO ModifierArguments (ModifierId, Name, Type, Value)
-    VALUES ('BBGV_TRAIT_IKANDA_MILITARY_PRODUCTION', 'Amount', 'ARGTYPE_IDENTITY', 4);  -- 4 + 4
+    VALUES ('BBGV_TRAIT_IKANDA_MILITARY_PRODUCTION', 'Amount', 'ARGTYPE_IDENTITY', 6);  -- 4 + 4
