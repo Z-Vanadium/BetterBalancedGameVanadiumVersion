@@ -39,6 +39,7 @@
 			<File>civ/China.sql</File>
 			<File>civ/Germany.sql</File>
 			<File>civ/England.sql</File>
+			<File>civ/Nubia.sql</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="district">
 			<Properties>
@@ -85,6 +86,7 @@
 			<File>civ/China.sql</File>
 			<File>civ/Germany.sql</File>
 			<File>civ/England.sql</File>
+			<File>civ/Nubia.sql</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="district">
 			<Properties>
@@ -119,5 +121,6 @@
 			<File>civ/China.sql</File>
 			<File>civ/Germany.sql</File>
 			<File>civ/England.sql</File>
+			<File>civ/Nubia.sql</File>
 	</Files>
 </Mod>
