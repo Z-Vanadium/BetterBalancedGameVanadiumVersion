@@ -11,6 +11,11 @@
 			<Text>所有城市 +1 [ICON_Housing] 住房，没有淡水的城市额外 +1 [ICON_Housing] 住房</Text>
 		</Replace>
 
+		<!-- == BUILDINGS == -->
+		<Replace Tag="LOC_BUILDING_VENETIAN_ARSENAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>所有城市生产海军单位时+50% [ICON_Production] 生产力。[NEWLINE][NEWLINE]必须建在与工业区相邻的海岸单元格上。</Text>
+		</Replace>
+
 		<!-- == IMPROVEMENT == -->
 		<Replace Tag="LOC_TECH_INDUSTRIALIZATION_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>矿山和渔船改良设施+1 [ICON_Production] 生产力。</Text>
@@ -56,7 +61,7 @@
 		<!-- == GERMANY == -->
 		<!-- = leader ability (Frederick Barbarossa) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION" Language="zh_Hans_CN"> <!-- add icon -->
-			<Text>每种 [ICON_Government] 政体可获得一个额外的军事政策槽位。攻击城邦时，+7 [ICON_Strength] 战斗力。[NEWLINE][NEWLINE]生产重骑兵单位时，+30% 生产力</Text>
+			<Text>每种 [ICON_Government] 政体可获得一个额外的军事政策槽位。攻击城邦时，+7 [ICON_Strength] 战斗力。[NEWLINE][NEWLINE]生产重骑兵单位时，+30% [ICON_Production] 生产力</Text>
 		</Replace>
 
 		<!-- == GRAN COLOMBIA == -->
@@ -119,18 +124,6 @@
 		<!-- = unique district = -->
 		<Replace Tag="LOC_DISTRICT_OBSERVATORY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>玛雅特色科学研究区域。替代“学院”区域，且建造花费更低。[NEWLINE][NEWLINE]+1 [ICON_HOUSING] 住房，与种植园相邻则+1 [ICON_Science] 科技值。每与2个农场或区域单元格相邻，则+1 [ICON_Science] 科技值。每与1个地热裂缝相邻，则+2 [ICON_Science] 科技值。[NEWLINE][NEWLINE]建成后对相邻无主单元格施放文化炸弹。</Text>
-		</Replace>
-
-		<!-- == NUBIA == -->
-		<!-- = civilization ability = -->
-		<Replace Tag="LOC_TRAIT_CIVILIZATION_TA_SETI_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>生产陆地及海军远程单位时+30% [ICON_Production] 生产力。所有陆地及海军远程单位战斗经验值+50%， [ICON_Strength] 战斗力 +3。战略资源矿产提供+1 [ICON_Production] 生产力。加成和奢侈品资源矿产提供+2 [ICON_Gold] 金币。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T2平原、T5矿山资源。</Text>
-		</Replace>
-		<Replace Tag="LOC_BBGV_ABILITY_NUBIA_RANGED_BONUS_NAME" Language="zh_Hans_CN">
-			<Text>Ta Seti</Text>
-		</Replace>
-		<Replace Tag="LOC_BBGV_ABILITY_NUBIA_RANGED_BONUS_DESCRIPTON" Language="zh_Hans_CN">
-			<Text>+3 [ICON_Strength] 战斗力 来自 Ta Seti</Text>
 		</Replace>
 
 		<!-- == POLAND == -->
