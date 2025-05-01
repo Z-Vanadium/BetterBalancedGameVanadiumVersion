@@ -42,6 +42,17 @@
 			<Text>“砌砖”科技解锁建造者建造中国特色改良设施长城的能力。[NEWLINE][NEWLINE]+1 [ICON_PRODUCTION] 生产力。进驻单位+4 [ICON_Strength] 防御力、+1视野，并自动获得两回合驻扎加成。[NEWLINE][NEWLINE]每相邻一段长城+1 [ICON_Gold] 金币。“城堡”科技后每相邻一段长城+1 [ICON_CULTURE] 文化值。“行政部门”文化后 +1 [ICON_PRODUCTION] 生产力。“军事学”科技后+1 [ICON_CULTURE] 文化值。研究完“飞行”后其将提供 [ICON_TOURISM] 旅游业绩。必须沿着帝国的边界线建造。只能被掠夺（无法被自然灾害摧毁）。</Text>
 		</Replace>
 
+		<!-- == ENGLAND == -->
+		<!-- = civilization ability = -->
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION_DESCRIPTION" Language="zh_Hans_CN"> <!-- charges icon -->
+			<Text>每回合从矿山收集的 [ICON_RESOURCE_IRON] 铁与 [ICON_RESOURCE_COAL] 煤额外增加2点。港口建筑使战略资源储备+10（标准速度下）。生产军事工程师时+100% [ICON_PRODUCTION] 生产力。军事工程师+2 [ICON_Charges] 建造次数。拥有电力供给时，建筑的额外产出+4。[NEWLINE][NEWLINE][ICON_BULLET]出生地关联：T1海岸、T5铁、T5煤。</Text>
+		</Replace>
+		<!-- = leader ability = -->
+		<!-- = leader ability (Victoria Age of Steam) = -->
+		<Replace Tag="LOC_TRAIT_LEADER_VICTORIA_ALT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中每有一座工厂或发电厂，便+10% [ICON_PRODUCTION] 生产力。建造工业区建筑时+20% [ICON_PRODUCTION] 生产力。[NEWLINE][NEWLINE]拥有灯塔的城市+1 [ICON_GreatEngineer] 大工程师点数。工业区从皇家海军船坞获得标准相邻加成。</Text>
+		</Replace>
+
 		<!-- == GERMANY == -->
 		<!-- = leader ability (Frederick Barbarossa) = -->
 		<Replace Tag="LOC_TRAIT_LEADER_HOLY_ROMAN_EMPEROR_DESCRIPTION" Language="zh_Hans_CN"> <!-- add icon -->

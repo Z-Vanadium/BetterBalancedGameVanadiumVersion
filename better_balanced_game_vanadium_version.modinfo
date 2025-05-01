@@ -38,6 +38,7 @@
 			<File>civ/Maya.sql</File>
 			<File>civ/China.sql</File>
 			<File>civ/Germany.sql</File>
+			<File>civ/England.sql</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="district">
 			<Properties>
@@ -83,6 +84,7 @@
 			<File>civ/Maya.sql</File>
 			<File>civ/China.sql</File>
 			<File>civ/Germany.sql</File>
+			<File>civ/England.sql</File>
 		</UpdateDatabase>
 		<UpdateDatabase id="district">
 			<Properties>
@@ -116,5 +118,6 @@
 			<File>civ/Maya.sql</File>
 			<File>civ/China.sql</File>
 			<File>civ/Germany.sql</File>
+			<File>civ/England.sql</File>
 	</Files>
 </Mod>

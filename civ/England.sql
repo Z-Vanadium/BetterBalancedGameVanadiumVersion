@@ -1,0 +1,2 @@
+-- extra bonus back to all england
+UPDATE TraitModifiers SET TraitType='TRAIT_CIVILIZATION_INDUSTRIAL_REVOLUTION' WHERE ModifierId LIKE 'TRAIT_POWERED_BUILDINGS_MORE_%';
